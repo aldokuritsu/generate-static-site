@@ -25,14 +25,23 @@ Le **Générateur de Site HTML Statique** est un plugin WordPress qui permet de 
 Les fichiers statiques sont générés dans le dossier `wp-content/uploads/pages-html/` avec la structure suivante :
 
 pages-html/ 
+
     ├── index.html // Page d'accueil 
+
     ├── page1.html // Exemple de page statique 
+
     ├── post1.html // Exemple d'article statique 
+
     ├── css/ // Fichiers CSS externes 
+
         └── styles.css 
-    ├── js/ // Fichiers JavaScript externes 
+
+    ├── js/ // Fichiers JavaScript externes
+
         └── script.js 
-    └── img/ // Images utilisées sur le site 
+
+    └── img/ // Images utilisées sur le site
+     
         └── image1.jpg
 
 ## Paramétrage et Options
